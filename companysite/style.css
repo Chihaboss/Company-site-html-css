@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+}
+.body {
+    font-family: "Lexend Mega", sans-serif;
+    
+}
+.navbar {
+    text-align: center;
+    font-family: Lexend Mega;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin: 50px;
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: Lexend Mega;
+}
+
+.mission {
+    background-image: url(./backgound1.avif);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 300px;
+    padding-top: 35px;
+}
+
+.content {
+    width: 100%;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    font-family: Lexend Mega;
+    
+}
+
+.companies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.company {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.company img {
+    height: auto;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.company span {
+    padding: 5px;
+    min-width: 240px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Lexend Mega;
+}
+
+.titleour {
+    font-family: Lexend Mega;
+    text-align: center;
+}
+.team {
+    display: flex;
+    background-image: url(./background3.avif);
+    justify-content: center;
+    color: white;
+    padding-top: 5px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.personel{
+    padding: 10px;
+    flex-basis: 280px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.personel img {
+    width: 200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    font-family: Lexend Mega;
+}
+
+
+p {
+    font-family: Lexend Mega;
+    margin: 15px;
+}
